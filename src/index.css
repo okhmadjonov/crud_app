@@ -5,11 +5,28 @@
 }
 
 button{
-    width: 50px;
+    width: 100px;
     height: 40px;
     border: none;
     cursor: pointer;
     font-size: 18px;
-    color: #fff;
+    color: #323232;
     border-radius: 5px;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
